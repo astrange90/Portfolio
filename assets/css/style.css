@@ -1,11 +1,40 @@
+*{
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
 
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px;
+    background: rgb(99, 166, 220);
+    color: white
+}
 
+nav {
+    display: flex;
+    background-color: blanchedalmond;
+}
 
-
-
-
+nav a {
+    display: ;
+    justify-content: center;
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
 
 @media screen and (max-width: 768px) {
     header {
